@@ -83,9 +83,9 @@ network_g:
   type: RRDBNet
   num_in_ch: 3
   num_out_ch: 3
-  num_feat: 64
-  num_block: 23
-  num_grow_ch: 32
+  num_feat: 32
+  num_block: 10
+  num_grow_ch: 16
   scale: 2
 
 # path
