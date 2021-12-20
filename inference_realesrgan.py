@@ -50,7 +50,7 @@ def main():
         model = RRDBNet(num_in_ch=3, num_out_ch=3, num_feat=64, num_block=6, num_grow_ch=32, scale=4)
         netscale = 4
     elif args.model_name in ['RealESRGAN_x2plus']:  # x2 RRDBNet model
-        model = RRDBNet(num_in_ch=3, num_out_ch=3, num_feat=64, num_block=23, num_grow_ch=32, scale=2)
+        model = RRDBNet(num_in_ch=3, num_out_ch=3, num_feat=64, num_block=10, num_grow_ch=32, scale=2)
         netscale = 2
     elif args.model_name in [
             'RealESRGANv2-anime-xsx2', 'RealESRGANv2-animevideo-xsx2-nousm', 'RealESRGANv2-animevideo-xsx2'
